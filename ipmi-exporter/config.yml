@@ -1,0 +1,18 @@
+modules:
+  default:
+    user: admin
+    pass: asdfasdf
+    privilege: admin
+    address: lan
+    driver: lan
+    interval: 1m
+    timeout: 30
+    collectors:
+      - bmc
+      - ipmi
+      - chassis
+      - sel
+      - fru
+      - sensor
+
+

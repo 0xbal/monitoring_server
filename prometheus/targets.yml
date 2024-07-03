@@ -1,0 +1,4 @@
+- targets:
+  - localhost:9290
+  labels:
+    job: ipmi_exporter
